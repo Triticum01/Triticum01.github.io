@@ -4,9 +4,9 @@
 - Number two
 
 
-[link is here](./first-file)
+[first link](./first-file)
 
-[third page](./third.html)
+[third html](./third.html)
 
 
-[second link](./second.md)
+[second md](./second.md)
