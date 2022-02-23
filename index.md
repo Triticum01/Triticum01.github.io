@@ -18,4 +18,4 @@
 
 [second md](./second.md)
 
-[MEM](./doc/memory.md)
+[记忆](./doc/memory.md)
