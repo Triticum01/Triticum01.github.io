@@ -7,9 +7,9 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/red-shadow-sqr.png"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  author: "Triticum01"
   # tagline will appear under the title (optional)
-  tagline: "The place for your personal documents"
+  tagline: "The place xxfor your personal documents"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
