@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "first post"
-date:   2022-02-23 
+date:   2022-02-23 23:28:40 -0600
 categories: jekyll update
 ---
 Jekyll requires blog post files to be named according to the following format:
