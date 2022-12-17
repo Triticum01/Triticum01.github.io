@@ -19,6 +19,17 @@ compass:
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
   twitter: "Triticum01"
+  
+  
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Style Guide
+    url: /style-guide/
+    
+    
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
