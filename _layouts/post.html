@@ -6,7 +6,7 @@ layout: default
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Page</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -14,9 +14,9 @@ layout: default
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
     </nav>
-    <h1>My First Page</h1>
+    <h1>{{ page.title }}</h1>
     <section>
-      This is the content of my page
+      {{ content }}
     </section>
     <footer>
       &copy; to me
