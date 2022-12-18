@@ -21,13 +21,6 @@ compass:
   twitter: "Triticum01"
   
   
-navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about/
-  
-
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
