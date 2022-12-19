@@ -3,7 +3,7 @@ url:
 baseurl: ''
 
 # compass configuration
-compass:
+triticum:
   # an avatar or logo (optional)
   logo: "/images/red-shadow-sqr.png"
   # author will appear under the avatar (optional)
