@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "a-secon-one"
+title:  "a-second-one"
 permalink: /about/
 categories: cat1 cat2
 ---
