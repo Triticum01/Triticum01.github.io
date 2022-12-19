@@ -5,7 +5,7 @@ baseurl: ''
 # compass configuration
 triticum:
   # an avatar or logo (optional)
-  logo: "/images/Untitled.png"
+  logo: "/images/red-shadow-sqr.png"
   # author will appear under the avatar (optional)
   author: "Triticum01"
   # tagline will appear under the title (optional)
