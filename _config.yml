@@ -1,5 +1,5 @@
 # general configuration
-url: 
+url: "https://triticum01.github.io"       # My host url
 baseurl: ''
 
 # compass configuration
