@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "a-second-one"
-permalink: /about/
+permalink:
 categories: cat1 cat2
 ---
 
