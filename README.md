@@ -1,6 +1,6 @@
 # Documentation
 
-A Jekyll theme [Compass](https://github.com/excentris/compass) is adopted by this repo.
+A Jekyll theme [Compass](https://github.com/excentris/compass) is adapted by this repo.
 
 ## How to
 
