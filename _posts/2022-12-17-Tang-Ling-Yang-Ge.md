@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tang.Ling Yan Ge"
+title:  "Tang.LingYanGe"
 categories: jekyll update
 ---
 
