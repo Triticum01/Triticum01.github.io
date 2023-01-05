@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rock Linux"
+title:  "Rocky Linux"
 permalink:
 categories: OS 
 ---
