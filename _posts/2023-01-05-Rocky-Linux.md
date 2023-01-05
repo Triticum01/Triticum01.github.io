@@ -2,7 +2,7 @@
 layout: post
 title:  "Rock Linux"
 permalink:
-categories: 
+categories: OS 
 ---
 
 
