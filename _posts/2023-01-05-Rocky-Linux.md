@@ -14,7 +14,7 @@ The first Rocky Linux was officially released on April 30, 2021 The second relea
 
 ## test
 
-![screenshot is here](/Triticum01.github.io/docs/assets/images/release.png)
+![screenshot is here](/Triticum01.github.io/images/release.png)
 ```
 [root@rocky ~]# cat /etc/os-release
 NAME="Rocky Linux"
