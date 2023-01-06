@@ -22,7 +22,9 @@ lsblk
 lscpu
 uname
 fdisk
-yum
+yum update; yum list; yum list installed; yum search; yum info PKG; yum -y install PKG; yum remove PKG; yum grouplist; yum repolist
+
+
 rpm
 dnf
 
@@ -105,10 +107,6 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 ```
-
-
-
-
 
 ### Package management
 #### rpm( Red Hat Package Manager)
@@ -203,5 +201,13 @@ Description  : GNU Wget is a file retrieval utility which can use either the HTT
              : storage and comparison, use of Rest with FTP servers and Range with
              : HTTP servers to retrieve files over slow or unstable connections,
              : support for Proxy servers, and configurability.
+ 
+ 
+[root@rocky-linux ~]# yum provides /etc/httpd/conf/httpd.conf
+Last metadata expiration check: 2:11:50 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
+httpd-2.4.37-51.module+el8.7.0+1059+126e9251.x86_64 : Apache HTTP Server
+Repo        : appstream
+Matched from:
+Filename    : /etc/httpd/conf/httpd.conf
 ```
 
