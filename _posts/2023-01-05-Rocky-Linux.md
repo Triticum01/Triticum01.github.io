@@ -13,7 +13,7 @@ As one of the pupular Linux distributions, CentOS is widely used; not to mention
 The first Rocky Linux was officially released on April 30, 2021 The second release is version 8.4. Its version number is based on RHEL. On June 21, 2021, the stable release of Rocky Linux 8.4 was released. 
 
 ## Test
-### version info
+### Commandss
 
 ```
 lsblk
@@ -25,7 +25,7 @@ fdisk
 
 ```
 
-
+### Sysinfo
 ![screenshot is here](/images/screenshot.png)
 ```
 
