@@ -34,3 +34,32 @@ REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="8"
 [root@rocky ~]#
 ```
+
+![screenshot2 is here](images/screenshot2.png)
+```
+[root@rocky-linux ~]# rpm -qi NetworkManager
+Name        : NetworkManager
+Epoch       : 1
+Version     : 1.36.0
+Release     : 9.el8_6
+Architecture: x86_64
+Install Date: Mon 07 Nov 2022 12:24:28 PM UTC
+Group       : System Environment/Base
+Size        : 6331945
+License     : GPLv2+ and LGPLv2+
+Signature   : RSA/SHA256, Tue 25 Oct 2022 07:52:04 AM UTC, Key ID 15af5dac6d745a60
+Source RPM  : NetworkManager-1.36.0-9.el8_6.src.rpm
+Build Date  : Tue 25 Oct 2022 07:36:24 AM UTC
+Build Host  : ord1-prod-x86build004.svc.aws.rockylinux.org
+Relocations : (not relocatable)
+Packager    : infrastructure@rockylinux.org
+Vendor      : Rocky
+URL         : https://networkmanager.dev/
+Summary     : Network connection manager and user applications
+Description :
+NetworkManager is a system service that manages network interfaces and
+connections based on user or automatic configuration. It supports
+Ethernet, Bridge, Bond, VLAN, Team, InfiniBand, Wi-Fi, mobile broadband
+(WWAN), PPPoE and other devices, and supports a variety of different VPN
+services.
+```
