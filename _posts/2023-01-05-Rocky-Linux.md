@@ -260,7 +260,7 @@ Last metadata expiration check: 2:23:40 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
 
 ```
 
-#### dnf(Dandified yum)[web](https://dnf.readthedocs.io/en/latest/user_faq.html#what-does-dnf-stand-for)
+#### dnf(Dandified yum)[web](https://dnf.readthedocs.io/en/latest/user_faq.html#what-does-dnf-stand-for); [usage](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)
 is a rewrite of YUM, the "Yellowdog Updater Modified." YUM itself was already a rewrite of "Yellowdog UPdater," or YUP, originally developed for Yellow Dog Linux
 Perceived deficiencies of yum (which DNF is intended to address) include poor performance, high memory usage, and the slowness of its iterative dependency resolution.[10] DNF uses libsolv, an external dependency resolver; Perceived deficiencies of yum (which DNF is intended to address) include poor performance, high memory usage, and the slowness of its iterative dependency resolution.[10] DNF uses libsolv, an external dependency resolver
 
