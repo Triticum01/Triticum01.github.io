@@ -13,7 +13,7 @@ As one of the pupular Linux distributions, CentOS is widely used; not to mention
 The first Rocky Linux was officially released on April 30, 2021 The second release is version 8.4. Its version number is based on RHEL. On June 21, 2021, the stable release of Rocky Linux 8.4 was released. 
 
 ## Test
-### Commandss
+### Commands
 
 ```
 lsblk
@@ -110,7 +110,8 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-### rpm( Red Hat Package Manager)
+### Package management
+#### rpm( Red Hat Package Manager)
 ![screenshot is here](/images/Screenshot2.png)
 
 ```
@@ -140,7 +141,7 @@ Ethernet, Bridge, Bond, VLAN, Team, InfiniBand, Wi-Fi, mobile broadband
 (WWAN), PPPoE and other devices, and supports a variety of different VPN
 services.
 ```
-![screenshot3 is here](/images/Screenshot3.png)
+<!-- ![screenshot3 is here](/images/Screenshot3.png) -->
 
 
 ```
@@ -168,8 +169,8 @@ curl-7.61.1-22.el8_6.4.x86_64
 [root@rocky-linux ~]#
 ```
 
-### YUM (Yellowdog Updater Modified)
-![screenshot3 is here](/images/Screenshot4.png)
+#### YUM (Yellowdog Updater Modified)
+<!-- ![screenshot3 is here](/images/Screenshot4.png) -->
 
 ```
 [root@rocky-linux ~]# yum list openssh
