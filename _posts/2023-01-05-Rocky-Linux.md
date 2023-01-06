@@ -65,7 +65,9 @@ Ethernet, Bridge, Bond, VLAN, Team, InfiniBand, Wi-Fi, mobile broadband
 (WWAN), PPPoE and other devices, and supports a variety of different VPN
 services.
 ```
-![screenshot is here](/images/Screenshot3.png)
+![screenshot3 is here](/images/Screenshot3.png)
+
+
 ```
 [root@rocky-linux ~]# rpm -q curl
 curl-7.61.1-22.el8_6.4.x86_64
