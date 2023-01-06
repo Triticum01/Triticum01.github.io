@@ -35,7 +35,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8"
 [root@rocky ~]#
 ```
 
-### rpm
+### rpm( Red Hat Package Manager)
 ![screenshot is here](/images/Screenshot2.png)
 
 ```
@@ -92,3 +92,5 @@ curl-7.61.1-22.el8_6.4.x86_64
 /usr/share/zsh/site-functions/_curl
 [root@rocky-linux ~]#
 ```
+
+### YUM (Yellowdog Updater Modified)
