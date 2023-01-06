@@ -22,7 +22,15 @@ lsblk
 lscpu
 uname
 fdisk
-yum update; yum list; yum list installed; yum search; yum info PKG; yum -y install PKG; yum remove PKG; yum grouplist; yum repolist
+yum update
+yum list
+yum list installed
+yum search
+yum info PKG
+yum -y install PKG
+yum remove PKG
+yum grouplist
+yum repolist
 
 
 rpm
