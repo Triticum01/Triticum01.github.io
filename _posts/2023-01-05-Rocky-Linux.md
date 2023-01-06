@@ -37,7 +37,10 @@ yum shell
 
 
 rpm
-dnf
+
+dnf list
+dnf info PKG
+dnf install PKG
 
 ```
 
