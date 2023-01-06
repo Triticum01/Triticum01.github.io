@@ -35,7 +35,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8"
 [root@rocky ~]#
 ```
 
-![screenshot2 is here](images/screenshot2.png)
+![screenshot2 is here](images/Screenshot2.png)
 ```
 [root@rocky-linux ~]# rpm -qi NetworkManager
 Name        : NetworkManager
