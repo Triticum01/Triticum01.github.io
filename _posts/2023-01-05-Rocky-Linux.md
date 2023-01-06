@@ -31,6 +31,9 @@ yum -y install PKG
 yum remove PKG
 yum grouplist
 yum repolist
+yum history
+yum clean all
+yum shell
 
 
 rpm
@@ -217,5 +220,47 @@ httpd-2.4.37-51.module+el8.7.0+1059+126e9251.x86_64 : Apache HTTP Server
 Repo        : appstream
 Matched from:
 Filename    : /etc/httpd/conf/httpd.conf
+
+[root@rocky-linux ~]# yum repolist
+repo id                                     repo name
+appstream                                   Rocky Linux 8 - AppStream
+baseos                                      Rocky Linux 8 - BaseOS
+extras                                      Rocky Linux 8 - Extras
+[root@rocky-linux ~]# yum repolist all
+repo id                        repo name                                                       status
+appstream                      Rocky Linux 8 - AppStream                                       enabled
+appstream-debug                Rocky Linux 8 - AppStream - Source                              disabled
+appstream-source               Rocky Linux 8 - AppStream - Source                              disabled
+baseos                         Rocky Linux 8 - BaseOS                                          enabled
+baseos-debug                   Rocky Linux 8 - BaseOS - Source                                 disabled
+baseos-source                  Rocky Linux 8 - BaseOS - Source                                 disabled
+devel                          Rocky Linux 8 - Devel WARNING! FOR BUILDROOT AND KOJI USE       disabled
+extras                         Rocky Linux 8 - Extras                                          enabled
+ha                             Rocky Linux 8 - HighAvailability                                disabled
+ha-debug                       Rocky Linux 8 - High Availability - Source                      disabled
+ha-source                      Rocky Linux 8 - High Availability - Source                      disabled
+media-appstream                Rocky Linux 8 - Media - AppStream                               disabled
+media-baseos                   Rocky Linux 8 - Media - BaseOS                                  disabled
+nfv                            Rocky Linux 8 - NFV                                             disabled
+plus                           Rocky Linux 8 - Plus                                            disabled
+powertools                     Rocky Linux 8 - PowerTools                                      disabled
+powertools-debug               Rocky Linux 8 - PowerTools - Source                             disabled
+powertools-source              Rocky Linux 8 - PowerTools - Source                             disabled
+resilient-storage              Rocky Linux 8 - ResilientStorage                                disabled
+resilient-storage-debug        Rocky Linux 8 - Resilient Storage - Source                      disabled
+resilient-storage-source       Rocky Linux 8 - Resilient Storage - Source                      disabled
+rt                             Rocky Linux 8 - Realtime                                        disabled
+
+
+
+[root@rocky-linux ~]# yum shell
+Last metadata expiration check: 2:23:40 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
+>
+
+
 ```
+
+#### dnf(Dandified yum)[web](https://dnf.readthedocs.io/en/latest/user_faq.html#what-does-dnf-stand-for)
+is a rewrite of YUM, the "Yellowdog Updater Modified." YUM itself was already a rewrite of "Yellowdog UPdater," or YUP, originally developed for Yellow Dog Linux
+Perceived deficiencies of yum (which DNF is intended to address) include poor performance, high memory usage, and the slowness of its iterative dependency resolution.[10] DNF uses libsolv, an external dependency resolver; Perceived deficiencies of yum (which DNF is intended to address) include poor performance, high memory usage, and the slowness of its iterative dependency resolution.[10] DNF uses libsolv, an external dependency resolver
 
