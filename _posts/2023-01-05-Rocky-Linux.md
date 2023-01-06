@@ -22,6 +22,9 @@ lsblk
 lscpu
 uname
 fdisk
+yum
+rpm
+dnf
 
 ```
 
