@@ -14,8 +14,24 @@ The first Rocky Linux was officially released on April 30, 2021 The second relea
 
 ## Test
 ### version info
+
+```
+lsblk
+lshw
+lsblk
+lscpu
+uname
+fdisk
+
+```
+
+
 ![screenshot is here](/images/screenshot.png)
 ```
+
+[root@rocky-linux ~]# uname -a
+Linux rocky-linux 4.18.0-372.32.1.el8_6.x86_64 #1 SMP Thu Oct 27 15:18:36 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
 [root@rocky ~]# cat /etc/os-release
 NAME="Rocky Linux"
 VERSION="8.6 (Green Obsidian)"
@@ -33,7 +49,63 @@ ROCKY_SUPPORT_PRODUCT_VERSION="8"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="8"
 [root@rocky ~]#
+
+[root@rocky-linux ~]# lsblk
+NAME                MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+vda                 252:0    0  100G  0 disk
+├─vda1              252:1    0    1G  0 part /boot
+├─vda2              252:2    0  100M  0 part /boot/efi
+└─vda3              252:3    0 98.9G  0 part
+  ├─vg_virt-lv_root 253:0    0 97.9G  0 lvm  /
+  └─vg_virt-lv_swap 253:1    0    1G  0 lvm
+vdb                 252:16   0  366K  0 disk
+vdc                 252:32   0   44K  0 disk
+
+
+[root@rocky-linux ~]# fdisk -l
+Disk /dev/vda: 100 GiB, 107374182400 bytes, 209715200 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xea53f700
+
+Device     Boot   Start       End   Sectors  Size Id Type
+/dev/vda1  *       2048   2099199   2097152    1G 83 Linux
+/dev/vda2       2099200   2303999    204800  100M ef EFI (FAT-12/16/32)
+/dev/vda3       2304000 209715199 207411200 98.9G 8e Linux LVM
+
+
+Disk /dev/vdb: 366 KiB, 374784 bytes, 732 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/vdc: 44 KiB, 45056 bytes, 88 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/vg_virt-lv_root: 97.9 GiB, 105117646848 bytes, 205307904 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/vg_virt-lv_swap: 1 GiB, 1073741824 bytes, 2097152 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+
 ```
+
+
+
+
 
 ### rpm( Red Hat Package Manager)
 ![screenshot is here](/images/Screenshot2.png)
@@ -127,6 +199,5 @@ Description  : GNU Wget is a file retrieval utility which can use either the HTT
              : storage and comparison, use of Rest with FTP servers and Range with
              : HTTP servers to retrieve files over slow or unstable connections,
              : support for Proxy servers, and configurability.
-
 ```
 
