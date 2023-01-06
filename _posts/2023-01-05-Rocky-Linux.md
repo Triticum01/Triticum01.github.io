@@ -13,7 +13,7 @@ As one of the pupular Linux distributions, CentOS is widely used; not to mention
 The first Rocky Linux was officially released on April 30, 2021 The second release is version 8.4. Its version number is based on RHEL. On June 21, 2021, the stable release of Rocky Linux 8.4 was released. 
 
 ## test
-
+### version info
 ![screenshot is here](/images/screenshot.png)
 ```
 [root@rocky ~]# cat /etc/os-release
@@ -35,7 +35,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8"
 [root@rocky ~]#
 ```
 
-
+### rpm is still working
 ![screenshot is here](/images/Screenshot2.png)
 
 ```
@@ -64,4 +64,29 @@ connections based on user or automatic configuration. It supports
 Ethernet, Bridge, Bond, VLAN, Team, InfiniBand, Wi-Fi, mobile broadband
 (WWAN), PPPoE and other devices, and supports a variety of different VPN
 services.
+```
+![screenshot is here](/images/Screenshot3.png)
+```
+[root@rocky-linux ~]# rpm -q curl
+curl-7.61.1-22.el8_6.4.x86_64
+[root@rocky-linux ~]#
+[root@rocky-linux ~]# rpm -ql curl
+/usr/bin/curl
+/usr/lib/.build-id
+/usr/lib/.build-id/74
+/usr/lib/.build-id/74/12d9a83b2a437be12d5c92b9182ea7c50d2745
+/usr/share/doc/curl
+/usr/share/doc/curl/BUGS
+/usr/share/doc/curl/CHANGES
+/usr/share/doc/curl/FAQ
+/usr/share/doc/curl/FEATURES
+/usr/share/doc/curl/MANUAL
+/usr/share/doc/curl/README
+/usr/share/doc/curl/RESOURCES
+/usr/share/doc/curl/TODO
+/usr/share/doc/curl/TheArtOfHttpScripting
+/usr/share/man/man1/curl.1.gz
+/usr/share/zsh/site-functions
+/usr/share/zsh/site-functions/_curl
+[root@rocky-linux ~]#
 ```
