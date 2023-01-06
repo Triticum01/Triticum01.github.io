@@ -94,3 +94,39 @@ curl-7.61.1-22.el8_6.4.x86_64
 ```
 
 ### YUM (Yellowdog Updater Modified)
+![screenshot3 is here](/images/Screenshot4.png)
+
+```
+[root@rocky-linux ~]# yum list openssh
+Last metadata expiration check: 1:53:17 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
+Installed Packages
+openssh.x86_64                         8.0p1-13.el8                          @anaconda
+Available Packages
+openssh.x86_64                         8.0p1-16.el8                          baseos
+[root@rocky-linux ~]# yum search wget
+Last metadata expiration check: 1:53:47 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
+============================= Name Exactly Matched: wget =============================
+wget.x86_64 : A utility for retrieving files using the HTTP or FTP protocols
+[root@rocky-linux ~]# yum info wget
+Last metadata expiration check: 1:54:07 ago on Fri 06 Jan 2023 01:55:03 AM UTC.
+Available Packages
+Name         : wget
+Version      : 1.19.5
+Release      : 10.el8
+Architecture : x86_64
+Size         : 733 k
+Source       : wget-1.19.5-10.el8.src.rpm
+Repository   : appstream
+Summary      : A utility for retrieving files using the HTTP or FTP protocols
+URL          : http://www.gnu.org/software/wget/
+License      : GPLv3+
+Description  : GNU Wget is a file retrieval utility which can use either the HTTP or
+             : FTP protocols. Wget features include the ability to work in the
+             : background while you are logged out, recursive retrieval of
+             : directories, file name wildcard matching, remote file timestamp
+             : storage and comparison, use of Rest with FTP servers and Range with
+             : HTTP servers to retrieve files over slow or unstable connections,
+             : support for Proxy servers, and configurability.
+
+```
+
